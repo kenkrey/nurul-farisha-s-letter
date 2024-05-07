@@ -382,7 +382,7 @@ ul{
   
   @keyframes zoom {
 	0% {
-	  backround-color: black;
+	  background-color: black;
 	}
 	50% {
 	  background-color: white;
@@ -463,3 +463,30 @@ ul{
 .my-btn-text{
 	margin-left: 10px !important;
 }
+.B1:hover,
+.B1:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+		  color: #171616;
+		  background-color: #d3d1d1;
+}
+.B1 {
+	--color: #ffffff;
+	--hover: #969696;
+  }
+.B1{
+		text-decoration: none;
+		background: none;
+		border: 2px solid;
+		font: inherit;
+		line-height: 1;
+		margin: 0.5em auto;
+		padding: 0.5em 1.5em;
+		color: #ffffff;
+		transition: all 0.3s;
+		position: absolute;
+		left: 50%;
+		transform: translateY(-5px);
+  }
+  
