@@ -401,6 +401,12 @@ ul{
 		padding-top: -30px;
 	}
 }
+@media (max-width: 600px) {
+	body{
+		padding-top: -120px;
+	}
+
+}
 .clock-container{
 	font-family: "Jaro", sans-serif !important;
 
