@@ -397,6 +397,9 @@ ul{
 	.clock-container{
 		display: none;
 	}
+	body{
+		padding-top: -30px;
+	}
 }
 .clock-container{
 	font-family: "Jaro", sans-serif !important;
